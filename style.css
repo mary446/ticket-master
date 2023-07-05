@@ -1,0 +1,36 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: bolder;
+text-align: center;
+font-size: xx-large;
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/abstract-design-background-with-blue-purple-gradient_1048-13167.jpg?w=996&t=st=1688583498~exp=1688584098~hmac=24a30886d4bf49a5a745cade96769214f27c14032531b1b3a892e186638e027f');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+h1 {
+    color: blue;
+}
+#data-container{
+    color:black;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+#success-message-{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
