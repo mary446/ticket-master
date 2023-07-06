@@ -18,7 +18,7 @@ fetch()method ...
 to do this we are going to use conditional assignment statement that is: 
  declaring a variable (eg.using const,let), 
 `const events = data._embedded ? data._embedded.events : [];` 
-The ? is the conditional (ternary) operator. It evaluates the expression before it (data._embedded) as a condition. If the condition is truthy (evaluates to true)
+The ? is the conditional (ternary) operator. It evaluates the expression before it (data._embedded) as a condition. If the condition is truthy (evaluates to true) is a shorthand of an if statement.
 
 3. Then we create a html string to display the data 
 We can use the `.map`  takes a callback function as an argument, which will be executed for each element in the array.
