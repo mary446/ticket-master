@@ -41,11 +41,11 @@ function bookTicket(eventId){
 let bookingForm = document.getElementById("bookingForm");
 bookingForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  let username = document.getElementById("username");
-    let  email = document.getElementById("email");
-    console.log(username);
+  let username = document.getElementById("email");
+    let  email = document.getElementById("password");
     console.log(email);
-    if (username.value == "" || email.value == "") {
+    console.log(password);
+    if (email.value == "" || password.value == "") {
       alert("Ensure you input a value in both fields!");
     } else {
       // perform operation with form input
@@ -56,7 +56,7 @@ bookingForm.addEventListener("submit", (e) => {
       cont.style.display="grid";
       
       
-      username.value = "";
       email.value = "";
+      password.value = "";
     }
 })

@@ -1,5 +1,5 @@
 body {
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: Arial, Helvetica, sans-serif;
 font-style: italic;
 font-weight: bolder;
 font-size: large;
@@ -42,4 +42,7 @@ button {
     color: blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger
+  }
+  #bookingForm{
+    text-align: center;
   }
